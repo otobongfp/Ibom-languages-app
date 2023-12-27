@@ -5,6 +5,7 @@ import { FaQuestion } from "react-icons/fa";
 import { FaCheckDouble } from "react-icons/fa6";
 import { RiPlayListAddFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa6";
+import { BsTwitterX } from "react-icons/bs";
 
 const Sidebar = () => {
   return (
@@ -41,10 +42,15 @@ const Sidebar = () => {
           </Link>
         </li>
       </ul>
-      <ul className="mt-[200px] ml-6">
+      <ul className="flex items-center gap-3 mt-[200px] ml-6">
         <Link>
           <li>
             <FaGithub className="text-[24px] text-white" />
+          </li>
+        </Link>
+        <Link>
+          <li>
+            <BsTwitterX className="text-[24px] text-white" />
           </li>
         </Link>
       </ul>
