@@ -1,15 +1,7 @@
-import React, { useState } from "react";
-import Layout from "./components/Layout";
-import { Outlet } from "react-router-dom";
+import Dashboard from "./layouts/Dashboard";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <Layout>
-      <Outlet />
-    </Layout>
-  );
+  return <Dashboard />;
 }
 
 export default App;

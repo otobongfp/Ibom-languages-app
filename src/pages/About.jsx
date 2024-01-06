@@ -1,5 +1,4 @@
-import React from "react";
-import { IbomStadium } from "../../public";
+import { stadium } from "../assets/images";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa6";
 
@@ -36,7 +35,7 @@ const About = () => {
           <div className="col-span-1"></div>
           <div className="col-span-5">
             <div>
-              <img src={IbomStadium} className="rounded" />
+              <img src={stadium} className="rounded" />
             </div>
           </div>
         </div>
