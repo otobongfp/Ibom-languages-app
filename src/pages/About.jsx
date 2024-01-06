@@ -1,6 +1,5 @@
 import { stadium } from "../assets/images";
 import { Link } from "react-router-dom";
-import { FaGithub } from "react-icons/fa6";
 
 const About = () => {
   return (
@@ -24,13 +23,6 @@ const About = () => {
               means to get the Ibom native group of language available on a
               global stage for posterity and a means for serving local contents.
             </p>
-            <ul className="mt-4">
-              <Link>
-                <li>
-                  <FaGithub className="text-[24px]" />
-                </li>
-              </Link>
-            </ul>
           </div>
           <div className="col-span-1"></div>
           <div className="col-span-5">
