@@ -29,7 +29,7 @@ const Sidebar = () => {
         </li>
 
         <li className="rounded m-2 hover:bg-[#334155] text-white py-2">
-          <Link className="flex items-center pl-3">
+          <Link to={"/contribute"} className="flex items-center pl-3">
             <RiPlayListAddFill style={{ color: "#E67817" }} />
             <span className="ml-4">Contribute</span>
           </Link>

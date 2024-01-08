@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="h-[500px]">
       <div className="mx-4 bg-white rounded shadow h-full max-h-full">
-        <p className="m-4 mt-4 text-[2rem]">About</p>
+        <p className="m-4 pt-4 text-[2rem]">About</p>
         <div className="m-4 grid md:grid-cols-12">
           <div className="col-span-6">
             <p>

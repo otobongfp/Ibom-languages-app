@@ -1,5 +1,5 @@
 import App from "../App.jsx";
-import { About, Search } from "../pages";
+import { About, Search, Contribute } from "../pages";
 
 export const routes = [
   {
@@ -14,6 +14,10 @@ export const routes = [
       {
         path: "search",
         element: <Search />,
+      },
+      {
+        path: "contribute",
+        element: <Contribute />,
       },
     ],
   },
