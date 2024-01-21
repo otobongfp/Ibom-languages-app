@@ -15,21 +15,21 @@ const Sidebar = () => {
       </div>
       <ul>
         <li className="rounded m-2 hover:bg-[#334155] text-white py-2">
-          <Link to={"/about"} className="flex items-center pl-3">
+          <Link to={"/app/about"} className="flex items-center pl-3">
             <FaQuestion style={{ color: "#E67817" }} />
             <span className="ml-4">About</span>
           </Link>
         </li>
 
         <li className="rounded m-2 hover:bg-[#334155] text-white py-2">
-          <Link to={"/search"} className="flex items-center pl-3">
+          <Link to={"/app/search"} className="flex items-center pl-3">
             <FaSearch style={{ color: "#E67817" }} />
             <span className="ml-4">Search</span>
           </Link>
         </li>
 
         <li className="rounded m-2 hover:bg-[#334155] text-white py-2">
-          <Link to={"/contribute"} className="flex items-center pl-3">
+          <Link to={"/app/contribute"} className="flex items-center pl-3">
             <RiPlayListAddFill style={{ color: "#E67817" }} />
             <span className="ml-4">Contribute</span>
           </Link>
