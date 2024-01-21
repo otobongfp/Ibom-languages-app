@@ -1,9 +1,13 @@
 import App from "../App.jsx";
-import { About, Search, Contribute } from "../pages";
+import { Home, About, Search, Contribute } from "../pages";
 
 export const routes = [
   {
     path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/app",
     element: <App />,
     // loader: rootLoader,
     children: [
