@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Hero from "./Hero";
 
 const Home = () => {
   return (
     <div>
-      <Link to={"/app"}>Welcome to the Ibom Languages Project</Link>
+      <Hero />
     </div>
   );
 };
