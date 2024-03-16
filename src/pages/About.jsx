@@ -1,12 +1,11 @@
 import { stadium } from "../assets/images";
-import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="h-[500px]">
+    <div className="h-[80vh] overflow-y-auto">
       <div className="mx-4 bg-white rounded shadow h-full max-h-full">
         <p className="m-4 pt-4 text-[2rem]">About</p>
-        <div className="m-4 grid md:grid-cols-12">
+        <div className="m-4 grid lg:grid-cols-12 gap-4 md:gap-10">
           <div className="col-span-6">
             <p>
               Using the best-of-breed cutting edge app development, artificial
@@ -24,8 +23,7 @@ const About = () => {
               global stage for posterity and a means for serving local contents.
             </p>
           </div>
-          <div className="col-span-1"></div>
-          <div className="col-span-5">
+          <div className="col-span-6 ">
             <div>
               <img src={stadium} className="rounded" />
             </div>
