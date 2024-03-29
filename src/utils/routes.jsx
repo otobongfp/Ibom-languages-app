@@ -1,24 +1,34 @@
 import App from "../App.jsx";
+import HomePageLayout from "../layouts/HomePageLayout.jsx";
 import { Home, About, Search, Contribute } from "../pages";
 
 export const routes = [
   {
     path: "/",
-    element: <Home />,
+    element: <HomePageLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/contact",
+        element: <div>Contact us</div>,
+      },
+      {
+        path: "/dictionary",
+        element: <Search />,
+      },
+    ],
   },
   {
     path: "/app",
     element: <App />,
-    // loader: rootLoader,
     children: [
-      {
-        path: "about",
-        element: <About />,
-      },
-      {
-        path: "search",
-        element: <Search />,
-      },
       {
         path: "contribute",
         element: <Contribute />,
