@@ -1,6 +1,6 @@
 import App from "../App.jsx";
 import HomePageLayout from "../layouts/HomePageLayout.jsx";
-import { Home, About, Search, Contribute } from "../pages";
+import { Home, About, Search, Contribute, Contact } from "../pages";
 
 export const routes = [
   {
@@ -17,7 +17,7 @@ export const routes = [
       },
       {
         path: "/contact",
-        element: <div>Contact us</div>,
+        element: <Contact />,
       },
       {
         path: "/dictionary",

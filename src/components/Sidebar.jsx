@@ -14,12 +14,12 @@ const Sidebar = () => {
         <h2 className="text-3xl text-white mb-8">Ibom Language Pipeline</h2>
       </div>
       <ul>
-        <li className="rounded m-2 hover:bg-[#334155] text-white py-2">
+        {/* <li className="rounded m-2 hover:bg-[#334155] text-white py-2">
           <Link to={"/app/about"} className="flex items-center pl-3">
             <FaQuestion style={{ color: "#E67817" }} />
             <span className="ml-4">About</span>
           </Link>
-        </li>
+        </li> */}
 
         <li className="rounded m-2 hover:bg-[#334155] text-white py-2">
           <Link to={"/app/search"} className="flex items-center pl-3">
