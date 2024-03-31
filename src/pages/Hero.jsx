@@ -22,7 +22,7 @@ export default function Hero() {
               Ibom Languages Project
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Exploring language research to preserve local ingenious content
+              Exploring language research to preserve local indigenous content
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
