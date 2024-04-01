@@ -5,4 +5,5 @@ This is a pipeline for allowing people to contribute words to enable us build a 
 ### Getting started
 
 - Pull the repo.
-- npm run dev - to start the app
+- yarn install -> To download the projects dependencies.
+- yarn run dev -> to start the app
