@@ -23,6 +23,10 @@ export const routes = [
         path: "/dictionary",
         element: <Search />,
       },
+      {
+        path: "/contribute",
+        element: <Contribute />,
+      },
     ],
   },
   {
