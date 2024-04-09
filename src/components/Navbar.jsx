@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <header className="relative z-[90000]">
       <nav
-        className="flex items-center justify-between p-6 lg:px-8"
+        className="flex items-center justify-between p-2 md:p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">

@@ -1,5 +1,5 @@
 import About from "./About";
-import Search from "./Search";
+import Search from "./search/Search";
 import Contribute from "./Contribute";
 import Home from "./Home";
 import Contact from "./Contact";
