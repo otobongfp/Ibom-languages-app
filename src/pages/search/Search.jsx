@@ -124,7 +124,7 @@ const Search = () => {
                 <Option value="dictionary">Dictionary</Option>
                 <Option value="number">Numbers</Option>
                 <Option value="name">Names</Option>
-                <Option value="animal">Aminals</Option>
+                <Option value="animal">Animals</Option>
               </Select>
             </div>
           </div>
